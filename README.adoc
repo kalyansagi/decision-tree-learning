@@ -1,0 +1,37 @@
+== What does this application do?
+
+This is a simple scala (sbt) based application to use spark context and find the overall precision for a given data set.
+
+Note: The program is supplied with a covtype.data file to perform the operation. However, the file is not uploaded in the repo due to memory constraints.
+
+
+== Technical Details
+- Scala Documentation: link:https://docs.scala-lang.org/[Scala]
+- Version control: git
+- Build automation: scala build tool (sbt)
+
+
+
+== Developer Guide to run the code locally
+==== `git clone https://github.com/kalyansagi/decision-tree-learning.git`
+
+==== `cd /decision-tree-learning`
+
+==== `git checkout main`
+
+==== To compile the project
+[source,bash]
+----
+sbt compile
+----
+
+==== To run the project
+----
+ sbt run
+----
+
+===== OR
+
+==== Simply run the Scala class file on main method.
+
+
