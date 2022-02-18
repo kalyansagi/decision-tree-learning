@@ -55,6 +55,9 @@ object DecisionTreeAssignment {
     println("overallPrecision: " + overallPrecision)
 
     /*
+    //this overall precision can also be found at
+    metrics.weightedPrecision
+
     //find out pricision for each class
     metrics.precision(0)
 
